@@ -28,4 +28,4 @@ set the default locale for the system environment `zh_TW.UTF-8` and choose `Ok`
 ```
 $> sudo apt-get install scim-chewing
 ```
-*<font color=red><b>NOTE:</b> Should be able to use after re-login</font>*
+> _**NOTE:** Should be able to use after re-login_

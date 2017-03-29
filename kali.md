@@ -1,16 +1,14 @@
-# KALI
-
-## Change locale
+# Change locale
 ```
 $> dpkg-reconfigure locales
 ```
 
-## Install Traditional Chinese font
+# Install Traditional Chinese font
 ```
-apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+$> apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
 ```
 
-## Install Traditional Chinese input method
+# Install Traditional Chinese input method
 ```
 $> sudo apt-get install scim-chewing
 ```

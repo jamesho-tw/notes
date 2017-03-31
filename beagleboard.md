@@ -43,6 +43,14 @@ Download the desired image from https://beagleboard.org/latest-images
 
 To turn these images into eMMC flasher images, edit the `/boot/uEnv.txt` file on the Linux partition on the microSD card and remove the '`#`' on the line with '`cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh`'. Enabling this will cause booting the microSD card to flash the eMMC. Images are no longer provided here for this to avoid people accidentally overwriting their eMMC flash.
 
+**Flashing with the micro-SD card image:**
+1. Edit the `/boot/uEnv.txt`.
+2. Power off.
+3. Plug the micro-SD card into the micro-SD card slot.
+4. Power on.
+5. The blue LEDs `USR0` `USR1` `USR2` `USR3` should light in sequence.
+6. Wait until the LEDs stop blinking and the board shutdown, indicating successful.
+7. Remove micro-SD card and power on the board, that's all.
 
 ## _WiFi connection_
 
@@ -74,7 +82,7 @@ Agent RequestInput wifi_*_managed_psk
 connmanctl> quit
 ```
 
-_**To check the WiFi: **_ 
+_**To check the WiFi: **_
 ```
 $> ifconfig wlan0
 ```

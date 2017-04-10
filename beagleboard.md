@@ -78,6 +78,8 @@ Agent registered
 connmanctl> connect wifi_*_managed_psk
 Agent RequestInput wifi_*_managed_psk
   Passphrase = [ Type=psk, Requirement=mandatory ]
+Passphrase? xxxxxxxx
+Connected wifi_*_managed_psk
 
 connmanctl> quit
 ```

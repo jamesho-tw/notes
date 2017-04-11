@@ -84,7 +84,7 @@ Connected wifi_*_managed_psk
 connmanctl> quit
 ```
 
-_**To check the WiFi: **_
+_**To check the WiFi:**_
 ```
 $> ifconfig wlan0
 ```

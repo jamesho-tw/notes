@@ -88,3 +88,19 @@ _**To check the WiFi: **_
 ```
 $> ifconfig wlan0
 ```
+
+## Change the time zone
+```
+$> sudo dpkg-reconfigure tzdata
+```
+
+## Install Qt5
+```
+$> sudo apt-get update
+$> sudo apt-get upgrade
+$> sudo apt-get install qt5-default
+
+$> qmake --version
+QMake version 3.0
+Using Qt version 5.3.2 in /usr/lib/arm-linux-gnueabihf
+```

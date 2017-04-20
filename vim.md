@@ -10,10 +10,8 @@
 * Enable vim syntax highlighting by default  
 _it can be found in your home directory, if you've not found and create it._
 ```
-vi ~/.vimrc
-```
-_add this command_
-```
+$> vi ~/.vimrc
+
 syntax on
 ```
 
@@ -26,4 +24,14 @@ syntax on
 * Disabling
 ```
 :set nu!
+```
+
+
+# Turn off the backup and swap file
+```
+$> vi ~/.vimrc
+
+set nobackup
+set nowritebackup
+set noswapfile
 ```

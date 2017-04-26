@@ -71,3 +71,10 @@ $> ./domain.sh
 $> cd $WILDFLY_HOME\bin
 $> ./jboss-cli.sh --connect controller=127.0.0.1:9990 command=:shutdown
 ```
+
+### Remove the default datasource `ExampleDS`
+
+> _**for example:**_ `standalone` mode.  
+`standalone.xml`  
+remove the `default-bindings` `datasource`  
+`datasource="java:jboss/datasources/ExampleDS"` <-- remove this

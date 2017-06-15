@@ -39,5 +39,5 @@ $ sudo iptables -t nat -L -n
  ```
  * [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
  ```bash
- $ sudo docker exec -it NAME_OF_MY_CONTAINER base
+ $ sudo docker exec -it NAME_OF_MY_CONTAINER bash
  ```

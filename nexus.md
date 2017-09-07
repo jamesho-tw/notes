@@ -144,7 +144,7 @@ $ mvn clean deploy
 $ mvn release:clean
 
 # perform some checks
-# change the version for release (remove SNAPSHOT suffix)
+# change the version for RELEASE (remove SNAPSHOT suffix)
 # run the project test
 # commit and push the changes
 # create the tag out of this non-SNAPSHOT versioned code

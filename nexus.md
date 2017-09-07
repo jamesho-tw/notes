@@ -2,12 +2,12 @@
 
 https://www.sonatype.com/nexus-repository-oss
 
-Documentation - http://books.sonatype.com/nexus-book/
-Download - https://www.sonatype.com/download-oss-sonatype
+Documentation - http://books.sonatype.com/nexus-book/  
+Download - https://www.sonatype.com/download-oss-sonatype  
 
 ## **Default credentials**
-username: `admin`
-password: `admin123`
+username: `admin`  
+password: `admin123`  
 
 ## **Install with Docker**
 
@@ -32,10 +32,13 @@ password: `admin123`
 * Nexus Repository Manager 3
 
   **The default repository:**
-	`maven-public`
-	`maven-central`
-	`maven-snapshots`
-	`maven-releases`
+
+```
+maven-public
+maven-central
+maven-snapshots
+maven-releases
+```
 
   **Configuring your Maven setting:** ( `~/.m2/settings.xml` )
 
@@ -132,4 +135,4 @@ $ mvn release:perform
 # rollback a previous release
 # you haven't run release:clean on the project
 $ mvn release:rollback
-``
+```

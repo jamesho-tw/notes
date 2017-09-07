@@ -90,6 +90,15 @@ maven-releases
 
 ...
 
+	<scm>
+		<connection>scm:git:http://localhost:8080/project/demo.git</connection>
+		<url>http:///localhost:8080/project/demo</url>
+		<developerConnection>scm:git:http:///localhost:8080/project/demo.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+...
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
@@ -102,6 +111,21 @@ maven-releases
 	</distributionManagement>
 
 ...
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<tagNameFormat>@{project.version}</tagNameFormat>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<useReleaseProfile>false</useReleaseProfile>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
 ```

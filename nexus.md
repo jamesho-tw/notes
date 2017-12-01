@@ -92,8 +92,8 @@ maven-releases
 
 	<scm>
 		<connection>scm:git:http://localhost:8080/project/demo.git</connection>
-		<url>http:///localhost:8080/project/demo</url>
-		<developerConnection>scm:git:http:///localhost:8080/project/demo.git</developerConnection>
+		<url>http://localhost:8080/project/demo</url>
+		<developerConnection>scm:git:http://localhost:8080/project/demo.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 

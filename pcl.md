@@ -2,7 +2,7 @@
 
 * Install pcl library
 ```
-$> sudo apt-get install libpcl1.7 libpcl-dev
+$> sudo apt-get install libpcl-dev
 ```
 
 * Install pcl tools
